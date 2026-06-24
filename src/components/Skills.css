@@ -1,0 +1,32 @@
+.skills{
+    background-color: #414345;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.skills-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: white;
+}
+.skills-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;    
+    padding: 0;
+    gap: 20px;
+    justify-content: center;
+}
+.skill-item {
+    background-color:#3A6073;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+.skill-item:hover {
+    background-color: #614385;
+    color: white;
+}
