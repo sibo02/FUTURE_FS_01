@@ -9,7 +9,7 @@ A personal portfolio website built with React.js showcasing my skills, projects 
 - Node.js (backend )
 
 ## Features
-- Responsive design
+- Responsive design 
 - Interactive sections
 - Contact form
 - Project showcase

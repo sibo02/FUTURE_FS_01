@@ -5,25 +5,25 @@ function Projects() {
             <h2 className="project-title">My Projects</h2>
             <div className="project-grid">
                         <div className="project-card">
-                        <h3>Project One</h3>
-                         <p>A web application that allows users to track their tasks and deadlines.</p>
-                             <a href="#">View on GitHub</a>
+                        <h3>Advice Generator App</h3>
+                         <p>A web application that allows users to generate random advice.</p>
+                             <a href="https://github.com/sibo02/advice-generator">View on GitHub</a>
                         </div>
                
             
                  
                     <div className="project-card">
-                        <h3>Project Two</h3>
-                        <p>A social media platform for sharing photos and connecting with friends.</p>
-                            <a href="#">View on GitHub</a>
+                        <h3>Rock Paper Scissors</h3>
+                        <p>A simple game where players can play rock, paper, scissors against the computer.</p>
+                            <a href="https://github.com/sibo02/rock-paper-scissors">View on GitHub</a>
                     </div>
                    
                 
                       
                     <div className="project-card">
-                        <h3>Project Three</h3>
-                         <p>An e-commerce website for buying and selling handmade crafts.</p>
-                             <a href="#">View on GitHub</a>
+                        <h3>Intro Component With Sign Up Form</h3>
+                         <p>A responsive intro component with a sign-up form.</p>
+                             <a href="https://github.com/sibo02/intro-component">View on GitHub</a>
                     </div>
                 </div>  
                 
