@@ -7,7 +7,8 @@ function Projects() {
                         <div className="project-card">
                         <h3>Advice Generator App</h3>
                          <p>A web application that allows users to generate random advice.</p>
-                             <a href="https://github.com/sibo02/advice-generator">View on GitHub</a>
+                             <a href="https://github.com/sibo02/advice-generator" target="_blank">View on GitHub</a>
+                             <a href="https://sibo02.github.io/advice-generator" target="_blank">Live Demo</a>
                         </div>
                
             
@@ -15,7 +16,8 @@ function Projects() {
                     <div className="project-card">
                         <h3>Rock Paper Scissors</h3>
                         <p>A simple game where players can play rock, paper, scissors against the computer.</p>
-                            <a href="https://github.com/sibo02/rock-paper-scissors">View on GitHub</a>
+                            <a href="https://github.com/sibo02/rock-paper-scissors" target="_blank">View on GitHub</a>
+                            <a href="https://sibo02.github.io/rock-paper-scissors" target="_blank">Live Demo</a>
                     </div>
                    
                 
@@ -23,7 +25,8 @@ function Projects() {
                     <div className="project-card">
                         <h3>Intro Component With Sign Up Form</h3>
                          <p>A responsive intro component with a sign-up form.</p>
-                             <a href="https://github.com/sibo02/intro-component">View on GitHub</a>
+                             <a href="https://github.com/sibo02/intro-component" target="_blank">View on GitHub</a>
+                             <a href="https://sibo02.github.io/intro-component" target="_blank">Live Demo</a>
                     </div>
                 </div>  
                 
