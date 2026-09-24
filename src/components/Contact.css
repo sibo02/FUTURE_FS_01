@@ -1,47 +1,95 @@
-.contact{
-    background-color: #403B4A;
-    padding-top: 80px;
-    text-align: center;
-    padding-bottom: 80px;
+
+.contact {
+  padding: 80px 20px;
+  background-color: #000428;
+  color: white;
+  text-align: center;
 }
+
 .contact-title {
-    font-size: 36px;
-    margin-bottom: 20px;
-    color: white;
+  font-size: 36px;
+  margin-bottom: 15px;
+  color: #ff6347;
 }
+
+.contact > p {
+  font-size: 18px;
+  color: #cccccc;
+  margin-bottom: 40px;
+}
+
 .contact-form {
-    max-width: 600px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 10px;
 }
 
-input, textarea {
-    padding: 12px;
-    border-radius: 5px;
-    border: 1px solid #667eea;
-    background-color: #1a1a2e;
-    color: white;
-    font-size: 16px;
+.contact-form label {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 10px;
 }
 
-textarea {
-    height: 150px;
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #2f2f2f;
+  border-radius: 10px;
+  background-color: #1b1b1b;
+  color: white;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #4f8cff;
+  box-shadow: 0 0 10px rgba(79, 140, 255, 0.15);
+}
+
+.contact-form textarea {
+  min-height: 150px;
+  resize: vertical;
 }
 
 .submit-btn {
-    padding: 15px;
-    background-color: #ff6347;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 18px;
-    cursor: pointer;
+  margin-top: 20px;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 10px;
+  background-color: #4f8cff;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .submit-btn:hover {
-    background-color: #667eea;
-    transition: background-color 0.3s;
+  transform: translateY(-3px);
+  background-color: #ff6347;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 60px 20px;
+  }
+
+  .contact-title {
+    font-size: 30px;
+  }
+
+  .contact > p {
+    font-size: 16px;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
 }

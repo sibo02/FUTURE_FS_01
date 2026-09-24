@@ -2,13 +2,15 @@
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 18px 60px;
+  padding: 18px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: rgba(20, 30, 48, 0.85);
   backdrop-filter: blur(10px);
+  box-sizing: border-box;
   z-index: 1000;
+ 
 }
 
 .logo {
