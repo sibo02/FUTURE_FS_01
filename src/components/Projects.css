@@ -47,7 +47,7 @@
 .project-card p {
   font-size: 16px;
   line-height: 1.6;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   color: #dddddd;
 }
 
@@ -66,6 +66,17 @@
 .project-card a:hover {
   transform: translateY(-2px);
   background-color: #ffffff;
+}
+
+.project-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.project-links a {
+  margin: 0;
 }
 
 @media (max-width: 900px) {
